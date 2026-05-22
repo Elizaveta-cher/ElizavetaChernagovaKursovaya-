@@ -11,7 +11,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 $host = 'localhost';
-$db   = 'liza_shop';
+$db   = 'liza_store';
 $user = 'liza_admin';
 $pass = '123456qQ';
 $charset = 'utf8mb4';
@@ -30,5 +30,5 @@ try {
 
 // Настройки внутренней платежной системы
 define('SITE_NAME', 'GameBoost');
-define('SITE_URL', 'http://45.87.153.219/liza');
+define('SITE_URL', 'http://159.194.218.137:8081');
 ?>
